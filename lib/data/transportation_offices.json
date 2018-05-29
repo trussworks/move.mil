@@ -1,3 +1,4 @@
+
 [
   {
     "name": "Fort Bliss PPPO",
@@ -30,7 +31,7 @@
         "dsn": false
       },
       {
-        "phone)number": "(254) 287-2200",
+        "phone_number": "(254) 287-2200",
         "phone_type": "voice",
         "dsn": false
       },
@@ -546,12 +547,12 @@
     ],
     "phone_numbers": [
       {
-        "phone_number": "(913)684-5656, 5651,5655,5643",
+        "phone_number": "(913) 684-5656/(913) 684-5651/(913) 684-5655/(913) 684-5643",
         "phone_type": "voice",
         "dsn": false
       },
       {
-        "phone_number": "552-5656,5651,5655,5643",
+        "phone_number": "552-5656/552-5651/552-5655/552-5643",
         "phone_type": "voice",
         "dsn": true
       }
@@ -1203,7 +1204,7 @@
     ],
     "phone_numbers": [
       {
-        "phone_number": " (520) 228-4818                                 \"",
+        "phone_number": " (520) 228-4818",
         "phone_type": "voice",
         "dsn": false
       },
@@ -1227,7 +1228,7 @@
     "location": {
       "street_address": "400 South Gate 35",
       "extended_address": "Bldg 2045, Rm 133",
-      "locality": "nFairchild AFB",
+      "locality": "Fairchild AFB",
       "region": "Washington",
       "region_code": "WA",
       "postal_code": "99011",
@@ -1864,7 +1865,15 @@
     },
     "email_addresses": [
       {
-        "email_address": "usarmy.drum.406-afsb-lrc.mbx.dol-hhg-qc@mail.mil\nusarmy.drum.406-afsb-lrc.mbx.dol-ppso@mail.mil\nusarmy.drum.406-afsb-lrc.mbx.ppso-cso@mail.mil",
+        "email_address": "usarmy.drum.406-afsb-lrc.mbx.dol-hhg-qc@mail.mil",
+        "note": "Customer Service"
+      },
+      {
+        "email_address": "usarmy.drum.406-afsb-lrc.mbx.dol-ppso@mail.mil",
+        "note": "Customer Service"
+      },
+      {
+        "email_address": "usarmy.drum.406-afsb-lrc.mbx.ppso-cso@mail.mil",
         "note": "Customer Service"
       }
     ],
@@ -2123,7 +2132,7 @@
     ],
     "phone_numbers": [
       {
-        "phone_number": "TMO: COMM (843) 794-7577\nTMO: COMM (843) 794-7575",
+        "phone_number": "(843) 794-7577/(843) 794-7575",
         "phone_type": "voice",
         "dsn": false
       },
@@ -2635,7 +2644,7 @@
     "location": {
       "street_address": "766 Intrepid St",
       "extended_address": "Community Services Bldg. 456, 1st Floor Left Wing",
-      "locality": "nMillington",
+      "locality": "Millington",
       "region": "Tennessee",
       "region_code": "TN",
       "postal_code": "38054",
@@ -2652,12 +2661,12 @@
     ],
     "phone_numbers": [
       {
-        "phone_number": "901-874-7771 or  7775",
+        "phone_number": "901-874-7771 / 901-874-7775",
         "phone_type": "voice",
         "dsn": false
       },
       {
-        "phone_number": "882-7771 or  7775",
+        "phone_number": "882-7771 / 882-7775",
         "phone_type": "voice",
         "dsn": true
       }
@@ -3369,46 +3378,6 @@
     "note": "WALK-IN BASIS"
   },
   {
-    "name": "PERSONAL PROPERTY OFFICE",
-    "shipping_office_name": "JPPSO SW",
-    "location": {
-      "street_address": "730 Enterprise Ave",
-      "extended_address": "Wing 2 Rm 5",
-      "locality": "NAS Lemoore",
-      "region": "California",
-      "region_code": "CA",
-      "postal_code": "93246",
-      "country_name": "United States",
-      "country_code": "US",
-      "latitude": 36.260194,
-      "longitude": -119.905519
-    },
-    "email_addresses": [
-
-    ],
-    "phone_numbers": [
-      {
-        "phone_number": "559-998-3881",
-        "phone_type": "voice",
-        "dsn": false
-      },
-      {
-        "phone_number": "949 3881",
-        "phone_type": "voice",
-        "dsn": true
-      }
-    ],
-    "hours": "M,T,TH 0700-1530 W 0900-1530 F 0730-1200",
-    "services": [
-      "Walk-In Help",
-      "Call Center",
-      "Computer Lab",
-      "Appointments",
-      "QA Inspections"
-    ],
-    "note": "WALK IN BASIS"
-  },
-  {
     "name": "Fort McCoy PPPO",
     "shipping_office_name": "JPPSO-NC / JPPSO-COS",
     "location": {
@@ -3968,7 +3937,7 @@
     ],
     "phone_numbers": [
       {
-        "phone_number": "(757) 764-4171 (757) 764-7503",
+        "phone_number": "(757) 764-4171 / (757) 764-7503",
         "phone_type": "voice",
         "dsn": false
       },
@@ -4698,7 +4667,7 @@
     "location": {
       "street_address": "7383 N Litchfield Rd",
       "extended_address": "Rm 1122",
-      "locality": "nLuke AFB",
+      "locality": "Luke AFB",
       "region": "Arizona",
       "region_code": "AZ",
       "postal_code": "85309",
@@ -4743,12 +4712,12 @@
     "name": "Malmstrom AFB",
     "shipping_office_name": "JPPSO-NC / JPPSO-COS",
     "location": {
-      "street_address": "7383 N Litchfield Rd",
-      "extended_address": "Rm 1122",
-      "locality": "Luke AFB",
-      "region": "Arizona",
-      "region_code": "AZ",
-      "postal_code": "85309",
+      "street_address": "341ST LRS/LGRT",
+      "extended_address": "7911 GODDARD DRIVE",
+      "locality": "Malmstrom AFB",
+      "region": "Montana",
+      "region_code": "MT",
+      "postal_code": "59402",
       "country_name": "United States",
       "country_code": "US",
       "latitude": 47.519099,
@@ -4984,47 +4953,6 @@
       "Walk-In Help",
       "Computer Lab",
       "Appointments"
-    ],
-    "note": "Appts daily (0800-1000)/(1300-1500)"
-  },
-  {
-    "name": "Peterson AFB",
-    "shipping_office_name": "JPPSO-NC / JPPSO-COS",
-    "location": {
-      "street_address": "135 Dover St",
-      "extended_address": "Bldg 350",
-      "locality": "Peterson AFB",
-      "region": "Colorado",
-      "region_code": "CO",
-      "postal_code": "80914",
-      "country_name": "United States",
-      "country_code": "US",
-      "latitude": 38.82066,
-      "longitude": -104.705125
-    },
-    "email_addresses": [
-      {
-        "email_address": "JPPSO-NC.pppo-peterson@us.af.mil",
-        "note": "Customer Service"
-      }
-    ],
-    "phone_numbers": [
-      {
-        "phone_number": "(719) 556-4196",
-        "phone_type": "voice",
-        "dsn": false
-      },
-      {
-        "phone_number": "834-4196",
-        "phone_type": "voice",
-        "dsn": true
-      }
-    ],
-    "hours": "Monday - Friday  0800 - 1600\nClosed all holidays ACC Family Days.",
-    "services": [
-      "Walk-In Help",
-      "Briefings",
-      "Computer Lab"
     ],
     "note": "Appts daily (0800-1000)/(1300-1500)"
   },
@@ -6768,7 +6696,7 @@
     },
     "phone_numbers": [
       {
-        "phone_number": "(808) 477-8840 (808) 477-8747",
+        "phone_number": "(808) 477-8840 / (808) 477-8747",
         "phone_type": "voice",
         "dsn": false
       },
@@ -7044,47 +6972,6 @@
       "QA Inspections"
     ],
     "note": "Counseling briefings occurs on Tues @ 1400 and Thurs @1300"
-  },
-  {
-    "name": "PPPO COUNSELING OFFICE ABERDEEN PROVING GROUND",
-    "shipping_office_name": "JPPSO-MA: Customer Service Management Division",
-    "location": {
-      "street_address": "4305 Susquehanna Ave",
-      "extended_address": null,
-      "locality": "Aberdeen Proving Ground",
-      "region": "Maryland",
-      "region_code": "MD",
-      "postal_code": "21005",
-      "country_name": "United States",
-      "country_code": "US",
-      "latitude": 39.482125,
-      "longitude": -76.138442
-    },
-    "email_addresses": [
-      {
-        "email_address": "none availalbe",
-        "note": "Customer Service"
-      }
-    ],
-    "phone_numbers": [
-      {
-        "phone_number": "410-306-2056 or 2057",
-        "phone_type": "voice",
-        "dsn": false
-      },
-      {
-        "phone_number": "458-2056 or 2057",
-        "phone_type": "voice",
-        "dsn": true
-      }
-    ],
-    "hours": "Monday- Friday 0730-1500 Closed weekends and Fed Holidays",
-    "services": [
-      "Walk-In Help",
-      "Briefings",
-      "QA Inspections"
-    ],
-    "note": "Counseling Briefings occur every Tues @1400 and Thurs @1300"
   },
   {
     "name": "JBAB PPPO",
