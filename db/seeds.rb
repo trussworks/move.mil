@@ -40,16 +40,22 @@ Seeds::Zip3s.new.seed!
 puts '-- Seeding ZIP5 rate areas...'
 Seeds::Zip5RateAreas.new.seed!
 
-puts '-- Seeding 2017 400NG baseline rates...'
-Seeds::BaselineRates.new(
-  date_range: Range.new(Date.parse('2017-05-15'), Date.parse('2018-05-14')),
-  file_path: Rails.root.join('lib', 'data', '2017 400NG Baseline Rates.xlsx')
-).seed!
+# puts '-- Seeding 2017 400NG baseline rates...'
+# Seeds::BaselineRates.new(
+#   date_range: Range.new(Date.parse('2017-05-15'), Date.parse('2018-05-14')),
+#   file_path: Rails.root.join('lib', 'data', '2017 400NG Baseline Rates.xlsx')
+# ).seed!
+#
+# puts '-- Seeding 2018 400NG baseline rates...'
+# Seeds::BaselineRates.new(
+#   date_range: Range.new(Date.parse('2018-05-15'), Date.parse('2019-05-14')),
+#   file_path: Rails.root.join('lib', 'data', '2018 400NG Baseline Rates.xlsx')
+# ).seed!
 
-puts '-- Seeding 2018 400NG baseline rates...'
+puts '-- Seeding 2019 400NG baseline rates...'
 Seeds::BaselineRates.new(
-  date_range: Range.new(Date.parse('2018-05-15'), Date.parse('2019-05-14')),
-  file_path: Rails.root.join('lib', 'data', '2018 400NG Baseline Rates.xlsx')
+  date_range: Range.new(Date.parse('2019-05-15'), Date.parse('2020-05-14')),
+  file_path: Rails.root.join('lib', 'data', '2019 400NG Baseline Rates.xlsx')
 ).seed!
 
 puts '-- Seeding top TSP by channel linehaul discounts...'
